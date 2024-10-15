@@ -12,7 +12,7 @@ public abstract class Player {
         this.name = name;
     }
 
-    public String getName() {
+    public String getName() {qa
         return name;
     }
 
