@@ -25,12 +25,11 @@ class SpotItPlayer extends Player {
 
     public SpotItPlayer(String name) {
         super(name);
-        this.score = 0; // Initialize score to zero
+        this.score = 0; 
     }
 
     @Override
     public void play() {
-        // This method can include specific actions for the player's turn if needed
         System.out.println(getName() + " is ready to play.");
     }
 
