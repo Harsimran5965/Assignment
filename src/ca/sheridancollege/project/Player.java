@@ -12,7 +12,7 @@ public abstract class Player {
         this.name = name;
     }
 
-    public String getName() {qa
+    public String getName() {
         return name;
     }
 
@@ -25,11 +25,12 @@ class SpotItPlayer extends Player {
 
     public SpotItPlayer(String name) {
         super(name);
-        this.score = 0; 
+        this.score = 0; // Initialize score to zero
     }
 
     @Override
     public void play() {
+        // This method can include specific actions for the player's turn if needed
         System.out.println(getName() + " is ready to play.");
     }
 
